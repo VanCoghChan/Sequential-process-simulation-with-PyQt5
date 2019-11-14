@@ -1,0 +1,130 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'c:\Users\Administrator\Desktop\新建文件夹\顺序进程\untitled.ui'
+#
+# Created by: PyQt5 UI code generator 5.11.3
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5.QtGui import *
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        MainWindow.setObjectName("MainWindow")
+        MainWindow.resize(777, 491)
+        self.centralwidget = QtWidgets.QWidget(MainWindow)
+        self.centralwidget.setObjectName("centralwidget")
+        self.pushButton = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton.setGeometry(QtCore.QRect(160, 420, 76, 41))
+        font = QtGui.QFont()
+        font.setFamily("微软雅黑")
+        font.setPointSize(10)
+        self.pushButton.setFont(font)
+        self.pushButton.setObjectName("pushButton")
+        self.pushButton_2 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_2.setGeometry(QtCore.QRect(280, 420, 76, 41))
+        font = QtGui.QFont()
+        font.setFamily("微软雅黑")
+        font.setPointSize(10)
+        self.pushButton_2.setFont(font)
+        self.pushButton_2.setObjectName("pushButton_2")
+        self.label = QtWidgets.QLabel(self.centralwidget)
+        self.label.setGeometry(QtCore.QRect(80, 70, 41, 41))
+        self.label.setStyleSheet("background-color: #4EEE94;\n"
+"border-radius:20px;")
+        self.label.setText("")
+        self.label.setObjectName("label")
+        self.label_2 = QtWidgets.QLabel(self.centralwidget)
+        self.label_2.setGeometry(QtCore.QRect(80, 150, 41, 41))
+        self.label_2.setStyleSheet("background-color: rgb(26, 183, 255);\n"
+"border-radius:20px;")
+        self.label_2.setText("")
+        self.label_2.setObjectName("label_2")
+        self.label_3 = QtWidgets.QLabel(self.centralwidget)
+        self.label_3.setGeometry(QtCore.QRect(80, 230, 41, 41))
+        self.label_3.setStyleSheet("background-color: #6A5ACD;\n"
+"border-radius:20px;")
+        self.label_3.setText("")
+        self.label_3.setObjectName("label_3")
+        self.label_4 = QtWidgets.QLabel(self.centralwidget)
+        self.label_4.setGeometry(QtCore.QRect(80, 310, 41, 41))
+        self.label_4.setStyleSheet("background-color: rgb(255, 25, 163);\n"
+"border-radius:20px;")
+        self.label_4.setText("")
+        self.label_4.setObjectName("label_4")
+        self.label_5 = QtWidgets.QLabel(self.centralwidget)
+        self.label_5.setGeometry(QtCore.QRect(370, 50, 16, 321))
+        self.label_5.setStyleSheet("background-color: rgb(170, 170, 127);")
+        self.label_5.setText("")
+        self.label_5.setObjectName("label_5")
+        self.label_6 = QtWidgets.QLabel(self.centralwidget)
+        self.label_6.setGeometry(QtCore.QRect(600, 120, 151, 171))
+        self.label_6.setStyleSheet("image: url(./cpu.png);")
+        self.label_6.setText("")
+        self.label_6.setObjectName("label_6")
+        self.label_7 = QtWidgets.QLabel(self.centralwidget)
+        self.label_7.setGeometry(QtCore.QRect(30, 30, 41, 31))
+        font = QtGui.QFont()
+        font.setFamily("微软雅黑")
+        font.setPointSize(12)
+        self.label_7.setFont(font)
+        self.label_7.setObjectName("label_7")
+        self.label_8 = QtWidgets.QLabel(self.centralwidget)
+        self.label_8.setGeometry(QtCore.QRect(30, 80, 31, 31))
+        self.label_8.setStyleSheet("image: url(./1.png);")
+        self.label_8.setText("")
+        self.label_8.setObjectName("label_8")
+        self.label_9 = QtWidgets.QLabel(self.centralwidget)
+        self.label_9.setGeometry(QtCore.QRect(30, 160, 31, 31))
+        self.label_9.setStyleSheet("image: url(./2.png);")
+        self.label_9.setText("")
+        self.label_9.setObjectName("label_9")
+        self.label_10 = QtWidgets.QLabel(self.centralwidget)
+        self.label_10.setGeometry(QtCore.QRect(30, 240, 31, 31))
+        self.label_10.setStyleSheet("\n"
+"image: url(./3.png);")
+        self.label_10.setText("")
+        self.label_10.setObjectName("label_10")
+        self.label_11 = QtWidgets.QLabel(self.centralwidget)
+        self.label_11.setGeometry(QtCore.QRect(30, 320, 31, 31))
+        self.label_11.setStyleSheet("image: url(./4.png);")
+        self.label_11.setText("")
+        self.label_11.setObjectName("label_11")
+        self.pushButton_3 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_3.setGeometry(QtCore.QRect(400, 420, 76, 41))
+        font = QtGui.QFont()
+        font.setFamily("微软雅黑")
+        font.setPointSize(10)
+        self.pushButton_3.setFont(font)
+        self.pushButton_3.setObjectName("pushButton_3")
+        self.pushButton_close = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_close.setGeometry(QtCore.QRect(740, 10, 21, 21))
+        self.pushButton_close.setText("")
+        self.pushButton_close.setObjectName("pushButton_close")
+        self.pushButton_4 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_4.setGeometry(QtCore.QRect(520, 420, 76, 41))
+        font = QtGui.QFont()
+        font.setFamily("微软雅黑")
+        font.setPointSize(10)
+        self.pushButton_4.setFont(font)
+        self.pushButton_4.setObjectName("pushButton_4")
+        MainWindow.setCentralWidget(self.centralwidget)
+
+        self.retranslateUi(MainWindow)
+        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
+    def retranslateUi(self, MainWindow):
+        _translate = QtCore.QCoreApplication.translate
+        MainWindow.setWindowTitle(_translate("MainWindow", "顺序进程演示"))
+        self.pushButton.setText(_translate("MainWindow", "开始"))
+        self.pushButton_2.setText(_translate("MainWindow", "暂停"))
+        self.label_7.setText(_translate("MainWindow", "进程"))
+        self.pushButton_3.setText(_translate("MainWindow", "继续"))
+        self.pushButton_4.setText(_translate("MainWindow", "复位"))
+        MainWindow.setWindowOpacity(0.96) # 设置窗口透明度
+        #Ui_MainWindow3.setAttribute(QtCore.Qt.WA_TranslucentBackground) # 设置窗口背景透明
+        MainWindow.setWindowFlag(QtCore.Qt.FramelessWindowHint) # 隐藏边框
+        pe = QPalette()
+        MainWindow.setAutoFillBackground(True)
+        MainWindow.setPalette(pe)
